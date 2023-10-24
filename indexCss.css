@@ -1,0 +1,23 @@
+.formulario{
+
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    border-color: black;
+    
+
+}
+
+.formulario input, label, button{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Establece la altura del contenedor al 100% del viewport height (altura de la ventana del navegador) */
+}
